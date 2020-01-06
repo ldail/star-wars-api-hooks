@@ -1,0 +1,17 @@
+
+label {
+  display: block;
+  color: #d7bf36;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select, option, input {
+  background-color: gold;
+  border: 1px solid white;
+  color: black;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+}

@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> renders empty fine 1`] = `
+<div
+  className="loading"
+>
+  <img
+    alt="loading"
+    src="150.gif"
+  />
+</div>
+`;
+
+exports[`<SearchForm /> changing a select option calls the proper function 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+    <option
+      key="0"
+      value="0"
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value="1"
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value="2"
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value="3"
+    >
+      3
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;
+
+exports[`<SearchForm /> changing the input calls the proper function 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+    <option
+      key="0"
+      value="0"
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value="1"
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value="2"
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value="3"
+    >
+      3
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;
+
+exports[`<SearchForm /> clicking submit submits the form 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+    <option
+      key="0"
+      value="0"
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value="1"
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value="2"
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value="3"
+    >
+      3
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;
+
+exports[`<SearchForm /> renders empty fine 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;
+
+exports[`<SearchForm /> renders with categories in select 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+    <option
+      key="0"
+      value="0"
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value="1"
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value="2"
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value="3"
+    >
+      3
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;
+
+exports[`<SearchForm /> submitting form calls proper function 1`] = `
+<form
+  id="search-form"
+  name="search-form"
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="category-select"
+  >
+    Category:
+  </label>
+  <select
+    id="category-select"
+    name="category-select"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value=""
+    >
+      Select one of the following:
+    </option>
+    <option
+      key="0"
+      value="0"
+    >
+      0
+    </option>
+    <option
+      key="1"
+      value="1"
+    >
+      1
+    </option>
+    <option
+      key="2"
+      value="2"
+    >
+      2
+    </option>
+    <option
+      key="3"
+      value="3"
+    >
+      3
+    </option>
+  </select>
+  <label
+    htmlFor="search-input"
+  >
+    Search Term:
+  </label>
+  <input
+    onChange={[Function]}
+    placeholder="skywalker..."
+    required={true}
+    type="text"
+  />
+  <button
+    className="useButton"
+    type="submit"
+    value="search!"
+  >
+    search!
+  </button>
+</form>
+`;

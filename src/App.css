@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+* {
+  transition: .5s all;
+}
+
+header {
+  background-color: #d7bf36;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none; 
+}
+
+h1:hover {
+  background-color: black;
+  transition-timing-function: ease-in-out;
+  transition-duration: 2s;
+}
+
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px black;
+}
+
+h1 span {
+  display: block;
+  font-size: 25px;
+  border-top: 1px solid white;
+  width: 200px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+main {
+  padding: 20px 30px;
+  letter-spacing: 1.1px;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 968px) {
+  main {
+    width: 60%;
+    margin: 0 auto;
+  }
+}

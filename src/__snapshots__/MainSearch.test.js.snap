@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainSearch /> renders empty fine 1`] = `
+<section>
+  <p
+    className="instructions"
+  >
+    Enter a 
+    <span
+      className="bold"
+    >
+      search term
+    </span>
+     and 
+    <span
+      className="bold"
+    >
+      category
+    </span>
+     and we'll find what matches!
+  </p>
+  <GoldDivider />
+  <ErrorBoundary>
+    <SearchForm />
+  </ErrorBoundary>
+</section>
+`;
+
+exports[`<MainSearch /> renders with categories in select 1`] = `
+<section>
+  <p
+    className="instructions"
+  >
+    Enter a 
+    <span
+      className="bold"
+    >
+      search term
+    </span>
+     and 
+    <span
+      className="bold"
+    >
+      category
+    </span>
+     and we'll find what matches!
+  </p>
+  <GoldDivider />
+  <ErrorBoundary>
+    <SearchForm
+      categories={
+        Array [
+          "test",
+          "data",
+          "here",
+          "okay",
+        ]
+      }
+    />
+  </ErrorBoundary>
+</section>
+`;

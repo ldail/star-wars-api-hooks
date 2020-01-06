@@ -1,0 +1,18 @@
+.useButton {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  height: 40px;
+  font-size: 25px;
+}
+
+.useButton:hover {
+  background-color: #d7bf36;
+  color: black;
+  font-weight: bolder;
+} 

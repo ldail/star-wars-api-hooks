@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultsList /> renders empty fine with no results 1`] = `
+<ul>
+  <p
+    id="noResults"
+  >
+    No results!
+  </p>
+</ul>
+`;
+
+exports[`<ResultsList /> renders with results 1`] = `
+<ul>
+  <li
+    key="okay"
+  >
+    <span
+      className="count"
+    >
+      1
+      .
+    </span>
+     
+    okay
+  </li>
+  <li
+    key="test"
+  >
+    <span
+      className="count"
+    >
+      2
+      .
+    </span>
+     
+    test
+  </li>
+  <li
+    key="there"
+  >
+    <span
+      className="count"
+    >
+      3
+      .
+    </span>
+     
+    there
+  </li>
+</ul>
+`;

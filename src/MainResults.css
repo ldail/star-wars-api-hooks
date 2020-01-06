@@ -1,0 +1,28 @@
+#results {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+#results p {
+  color: #d7bf36;
+}
+
+.resultItem {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+p#noResults {
+  color: white;
+  font-weight: bold;
+}

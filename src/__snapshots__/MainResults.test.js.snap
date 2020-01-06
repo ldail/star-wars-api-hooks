@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainResults /> clicking the clear button calls proper function 1`] = `
+<section
+  id="results"
+>
+  <h2>
+    Your search results:
+  </h2>
+  <GoldDivider />
+  <p>
+    <span
+      className="resultItem"
+    >
+      Category:
+    </span>
+     
+  </p>
+  <p>
+    <span
+      className="resultItem"
+    >
+      Search Term:
+    </span>
+     
+  </p>
+  <button
+    className="useButton"
+    onClick={[Function]}
+    type="button"
+  >
+    clear
+  </button>
+  <GoldDivider />
+  <ErrorBoundary>
+    <ResultsList />
+  </ErrorBoundary>
+</section>
+`;
+
+exports[`<MainResults /> renders empty fine without props 1`] = `
+<section
+  id="results"
+>
+  <h2>
+    Your search results:
+  </h2>
+  <GoldDivider />
+  <p>
+    <span
+      className="resultItem"
+    >
+      Category:
+    </span>
+     
+  </p>
+  <p>
+    <span
+      className="resultItem"
+    >
+      Search Term:
+    </span>
+     
+  </p>
+  <button
+    className="useButton"
+    type="button"
+  >
+    clear
+  </button>
+  <GoldDivider />
+  <ErrorBoundary>
+    <ResultsList />
+  </ErrorBoundary>
+</section>
+`;
+
+exports[`<MainResults /> renders with all its props 1`] = `
+<section
+  id="results"
+>
+  <h2>
+    Your search results:
+  </h2>
+  <GoldDivider />
+  <p>
+    <span
+      className="resultItem"
+    >
+      Category:
+    </span>
+     
+    catTest
+  </p>
+  <p>
+    <span
+      className="resultItem"
+    >
+      Search Term:
+    </span>
+     
+    searchTest
+  </p>
+  <button
+    className="useButton"
+    onClick={[Function]}
+    type="button"
+  >
+    clear
+  </button>
+  <GoldDivider />
+  <ErrorBoundary>
+    <ResultsList
+      results={
+        Array [
+          "test",
+          "data",
+          "here",
+          "okay",
+        ]
+      }
+    />
+  </ErrorBoundary>
+</section>
+`;
